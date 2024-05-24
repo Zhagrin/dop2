@@ -6,7 +6,6 @@ N = 10000
 S = 0
 A = [randint (1, 100000)
      for i in range(N)]
-print(A)
 for j in A:
     if j % 5 == 0:
         M += j
